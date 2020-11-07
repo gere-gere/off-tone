@@ -1,0 +1,51 @@
+body {
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+#siteTitle {
+    font-family: sans-serif;
+    font-style: oblique;
+    float: left;
+    text-decoration-line: underline;
+    margin: auto;
+    margin-bottom: 24px;
+    padding: 4px 4px 0px 48px;
+}
+
+#ofutonCVS {
+    float: right;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+#titleLogo {
+    width: 62px;
+    height: 62px;
+    display: block;
+    padding: 14px 4px;
+}
+
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {display: inline-table;}
+
+.main ul{
+    font-size: 32px;
+    font-family: serif;
+    margin: 4px;
+}
+
+.main li {
+    font-style: oblique;
+    list-style: none;
+}
